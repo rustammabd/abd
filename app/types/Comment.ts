@@ -1,7 +1,7 @@
 export interface Comment {
     id: string
     body: string
-    lieks: number
+    likes: number
     user: {
         username: string
         fullName: string
