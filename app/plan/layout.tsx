@@ -10,7 +10,10 @@ export default function PlanLayout({ children }: { children: React.ReactNode }) 
     return (
         <>
             <Header />
-            {children}
+            <main className={'min-h-screen bg-black'}>
+                {children}
+            </main>
+
         </>
     )
 }
