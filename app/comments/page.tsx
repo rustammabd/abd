@@ -20,7 +20,7 @@ export default async function Comments() {
     return <>
         <section className="h-screen bg-black py-10 px-0">
             <div className="w-full h-full px-6 max-w-7xl mx-auto">
-                <div className="grid grid-cols-4 gap-5 ">
+                <div className="grid grid-cols-4 gap-5 max-[775px]:grid-cols-2 max-[410px]:grid-cols-1 ">
                     {comments.map((comment) => (
                         <a key={comment.id} className="
                         hover:bg-white/65
