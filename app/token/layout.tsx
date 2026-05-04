@@ -10,7 +10,11 @@ export default function PostsLayout({ children }: { children: React.ReactNode })
     return (
         <>
             <Header />
-            {children}
+            <main className="bg-black min-h-screen ">
+                {children}
+
+            </main>
+
         </>
     )
 }

@@ -11,29 +11,29 @@ const data = [
     {
 
         id: 2,
-        title: "Togrul",
+        title: "Medium",
         text: "Интеллект для повседневных задач",
         price: "31",
         btntext: "Get Go",
-        desc: "umniy"
+        desc: "Medium"
     },
 
     {
         id: 3,
-        title: "Murad",
+        title: "High",
         text: "Интеллект для повседневных задач",
         price: "69",
         btntext: "Get Go",
-        desc: "tupoy"
+        desc: "High"
     },
 
     {
         id: 4,
-        title: "Girl",
+        title: "Ultra",
         text: "Интеллект для повседневных задач",
-        price: "3169",
+        price: "100",
         btntext: "Get Go",
-        desc: "Samir lyubit eto"
+        desc: "Ultra"
     }
 ]
 
@@ -43,7 +43,7 @@ const Plan = () => {
         <>
             <section className="py-12 px-0">
                 <div className="max-w-7xl mx-auto px-4 w-full h-full">
-                    <div className="grid grid-cols-4 gap-5 max-[1044px]:grid-cols-3 max-[768px]:grid-cols-2 max-[525]:grid-cols-1">
+                    <div className="grid grid-cols-4 gap-5 max-[1044px]:grid-cols-3 max-[768px]:grid-cols-2 max-[525px]:grid-cols-1">
                         {data.map((d) => (
                             <div key={d.id} className={'!py-6 !px-6 bg-[#111] rounded-2xl flex items-start  gap-[40px] flex-col h-full'}>
                                 <h3 className={'text-white text-3xl font-black'}>{d.title}
