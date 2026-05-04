@@ -17,7 +17,7 @@ const Header = () => {
     const pathname = usePathname()
     return <>
         <header className=" sticky left-0 top-0 backdrop-blur-lg py-4 px-5">
-            <div className="max-w-[1230px] mx-auto py-4 md:px-6 w-full">
+            <div className="max-w-307.5 mx-auto py-4 md:px-6 w-full">
                 <div className="flex items-center justify-center">
                     <ul className="flex items-center gap-5 py-5 px-4 bg-[#111] rounded-4xl">
                         {links.map((link) => {
@@ -29,7 +29,6 @@ const Header = () => {
                                     <Link href={link.href} className={`${isActive ? "py-2 px-3 text-yellow-400"
                                         : ""} flex items-center gap-2`}>
                                         {Icon && <Icon />}
-                                        {link.label}
                                     </Link>
                                 </li>
                             )
