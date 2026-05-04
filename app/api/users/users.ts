@@ -3,7 +3,7 @@ export const users = [
         id: 1,
         name: "alex",
         age: 60,
-        country: "Latvia",
+        country: "Estonia",
     },
     {
         id: 2,
@@ -19,9 +19,9 @@ export const users = [
     },
     {
         id: 4,
-        name: "alex",
+        name: "Zlatan",
         age: 60,
-        country: "Latvia",
+        country: "Sweden",
     },
     {
         id: 5,
@@ -33,6 +33,6 @@ export const users = [
         id: 6,
         name: "alex",
         age: 60,
-        country: "Latvia",
+        country: "Lithuania",
     },
 ]
