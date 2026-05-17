@@ -25,7 +25,7 @@ export default function Capital() {
                         </p>
 
                         <div className="flex  flex-col items-start border border-gray-800 rounded-2xl py-6 px-6 ">
-                            <Image src={img} alt="" width={120} height={120} />
+                            <Image src={img} alt="" width={120} height={120} priority />
                             <span className="text-gray-800 mt-2 text-sm ">
                                 Click to enlarge
                             </span>
@@ -33,7 +33,8 @@ export default function Capital() {
 
                     </div>
 
-                    <Image src={photo} alt="" width={680} height={814} />
+                    <Image src={photo} alt="" width={680} height={814} priority />
+
                 </div>
             </div>
 
