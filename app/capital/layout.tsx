@@ -1,0 +1,20 @@
+import type { Metadata } from "next"
+import React from "react"
+import Header from "../components/shared/header/Header"
+
+
+export const metadata: Metadata = {
+    title: "comments page",
+    description: "comments x.com"
+}
+
+export default function CommentLayout({ children }: { children: React.ReactNode }) {
+    return <>
+        <Header />
+
+        <main>
+            {children}
+        </main>
+
+    </>
+}
